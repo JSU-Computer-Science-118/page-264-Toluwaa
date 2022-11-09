@@ -12,8 +12,8 @@ int main(){
   const int prime [] {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31};
   
 
-  if(num > 1000){
-    cout << "Out of bound";
+  if(num > 1000 || num < 2){
+    cout << "out of bound";
   }
   else{
     for (const int i : prime)
@@ -28,3 +28,4 @@ int main(){
     cout << "Number " << num << " is prime!";
   }
 }
+ 
